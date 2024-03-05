@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Simak UNSRI FASILKOM</title>
+  </head>
+  <body class="font-opensans overflow-hidden">
+    <!-- Global Container -->
+    <div
+      class="flex items-center justify-center min-h-screen bg-[url('/images/fixhero.jpg')] bg-no-repeat bg-cover"
+    >
+      <!-- Main Container -->
+      <div
+        class="container flex flex-col m-6 bg-white space-y-8 md:space-y-0 space-x-4 shadow-xl max-w-xl"
+      >
+        <div class="w-10/12 mx-auto text-center my-8">
+          <!-- Logo UNSRI -->
+          <img
+            src="images/unsri-removebg-preview.png"
+            alt=""
+            class="w-40 mx-auto mt-6"
+          />
+
+          <!-- "SIMAK UNSRI" -->
+          <h1 class="font-semibold text-sm md:text-2xl my-2">
+            Sistem Informasi Akademik (SIMAK)
+          </h1>
+          <h1 class="text-md md:text-2xl">Universitas Sriwijaya</h1>
+
+          <!-- Line on Side -->
+          <div class="inline-flex items-center justify-center w-full">
+            <hr class="w-full h-px my-8 bg-gray-300 border-0" />
+            <span
+              class="absolute px-3 font-light text-xs md:text-sm text-gray-400 -translate-x-1/2 bg-white left-1/2"
+              >Silahkan Masuk</span
+            >
+          </div>
+
+          <!-- Input NIM -->
+          <div
+            class="relative flex w-full border border-gray-400 px-3 py-0 rounded-sm items-center"
+          >
+            <img src="images/user-svgrepo-com.svg" alt="" class="" />
+            <input
+              type="text"
+              placeholder="NIM/NIP/E-mail Official UNSRI"
+              class="w-full mx-auto border-gray-400 p-2 rounded-sm text-sm outline-none"
+              required
+            />
+          </div>
+          <!-- Input Password -->
+          <div
+            class="relative flex w-full border border-gray-400 px-3 py-0 rounded-sm items-center mt-4"
+          >
+            <img src="images/lock-unlocked-svgrepo-com.svg" alt="" class="" />
+            <input
+              type="password"
+              placeholder="Password"
+              class="w-full mx-auto border-gray-400 p-2 rounded-sm text-sm outline-none"
+              required
+            />
+          </div>
+          <!-- Buttons -->
+          <div>
+            <button
+              class="flex justify-center items-center w-full p-3 border text-yellow-400 border-yellow-400 mt-6 mb-4 hover:bg-yellow-400 hover:cursor-pointer hover:text-white"
+            >
+              <!-- <img
+                src="images/lock-unlocked-svgrepo-com.svg"
+                alt=""
+                class="mx-2 fill-yellow-400 hover:fill-white"
+              /> -->
+              LOGIN
+            </button>
+            <button
+              class="flex justify-center items-center w-full p-2 mb-0 text-white bg-red-500 hover:bg-red-600 hover:cursor-pointer text-sm"
+            >
+              <img src="images/reset-alt-svgrepo-com.svg" alt="" class="mx-2" />
+              Reset Password
+            </button>
+          </div>
+
+          <!-- Extras -->
+          <div class="text-left">
+            <p class="text-black text-xs mt-2 mb-0">Belum memiliki akun?</p>
+            <a
+              href="#"
+              class="text-xs text-red-500 underline hover:text-yellow-400 mt-0 font-bold"
+              >Hubungi Admin Disini!</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
